@@ -4,11 +4,11 @@ import SectionTitleContainer from "../../common/SectionTitleContainer";
 
 import Container from "../../common/Container";
 
-import CompanyImage1 from "../../assets/brands/uideck.svg";
-import CompanyImage2 from "../../assets/brands/tailgrids.svg";
-import CompanyImage3 from "../../assets/brands/lineicons.svg";
-import CompanyImage4 from "../../assets/brands/ayroui.svg";
-import CompanyImage5 from "../../assets/brands/plainadmin.svg";
+import CompanyImage1 from "../../assets/brands/anu.svg";
+import CompanyImage2 from "../../assets/brands/anu.svg";
+import CompanyImage3 from "../../assets/brands/anu.svg";
+import CompanyImage4 from "../../assets/brands/anu.svg";
+import CompanyImage5 from "../../assets/brands/anu.svg";
 
 const imageLinkHoverClass =
   "object-cover grayscale transition-all duration-300 ease-in-out hover:grayscale-0 lg:max-w-[130px]";
@@ -22,7 +22,7 @@ const Companies = () => {
           </SectionTitleContainer>
         {/* wrapper */}
 
-        <div
+        {/* <div
           data-aos="fade-up"
           data-aos-once="true"
           className="flex flex-wrap items-center justify-center gap-8 rounded-lg bg-[#1D2144] p-8"
@@ -66,7 +66,7 @@ const Companies = () => {
           >
             <img src={`${CompanyImage5}`} alt="plainadmin" />
           </Link>
-        </div>
+        </div> */}
 
         {/* wrapper */}
       </Container>
