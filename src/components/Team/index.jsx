@@ -17,7 +17,7 @@ const reviewsInfo = [
   {
     desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     authorImg: `${AuthorImage1}`,
-    authorName: "Musharof Chy",
+    authorName: "Dimas Kopling",
     authorPosition: "Founder @TailGrids",
     discordLink: "https://discord.gg/example",
     twitterLink: "https://twitter.com/example",
@@ -25,7 +25,7 @@ const reviewsInfo = [
   {
     desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     authorImg: `${AuthorImage2}`,
-    authorName: "Devid Weilium",
+    authorName: "Rizki Premium",
     authorPosition: "Founder @UIdeck",
     discordLink: "https://discord.gg/example",
     twitterLink: "https://twitter.com/example",
@@ -33,7 +33,7 @@ const reviewsInfo = [
   {
     desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     authorImg: `${AuthorImage3}`,
-    authorName: "Lethium Frenci",
+    authorName: "Asep Pertamax",
     authorPosition: "Founder @Lineicons",
     discordLink: "https://discord.gg/example",
     twitterLink: "https://twitter.com/example",
@@ -41,7 +41,7 @@ const reviewsInfo = [
   {
     desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     authorImg: `${AuthorImage3}`,
-    authorName: "Lethium Frenci",
+    authorName: "Asep Pertamax",
     authorPosition: "Founder @Lineicons",
     discordLink: "https://discord.gg/example",
     twitterLink: "https://twitter.com/example",
@@ -49,7 +49,7 @@ const reviewsInfo = [
   {
     desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     authorImg: `${AuthorImage1}`,
-    authorName: "Musharof Chy",
+    authorName: "Dimas Kopling",
     authorPosition: "Founder @TailGrids",
     discordLink: "https://discord.gg/example",
     twitterLink: "https://twitter.com/example",
@@ -57,7 +57,7 @@ const reviewsInfo = [
   {
     desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     authorImg: `${AuthorImage2}`,
-    authorName: "Devid Weilium",
+    authorName: "Rizki Premium",
     authorPosition: "Founder @UIdeck",
     discordLink: "https://discord.gg/example",
     twitterLink: "https://twitter.com/example",
@@ -65,7 +65,7 @@ const reviewsInfo = [
   {
     desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     authorImg: `${AuthorImage3}`,
-    authorName: "Lethium Frenci",
+    authorName: "Asep Pertamax",
     authorPosition: "Founder @Lineicons",
     discordLink: "https://discord.gg/example",
     twitterLink: "https://twitter.com/example",
@@ -73,7 +73,7 @@ const reviewsInfo = [
   {
     desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     authorImg: `${AuthorImage3}`,
-    authorName: "Lethium Frenci",
+    authorName: "Asep Pertamax",
     authorPosition: "Founder @Lineicons",
     discordLink: "https://discord.gg/example",
     twitterLink: "https://twitter.com/example",
