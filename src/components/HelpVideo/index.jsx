@@ -1,68 +1,63 @@
-import { useState } from "react";
-
+import { useState, useEffect } from "react";
+import axios from "axios";
 import Container from "../../common/Container";
-import SectionTitleContainer from "../../common/SectionTitleContainer";
-import Modal from "../../common/Modal";
 
-import { FaPlay } from "react-icons/fa";
-
-import VideoThumbnailImage from "../../assets/images/video-thumbnail.jpg";
+const TICKERS = ["SOL", "BTC", "BNB", "ETH", "ARB", "MATIC", "DOGE", "XRP", "ADA", "OKB", "APT"];
 
 const HelpVideo = () => {
-  const [isOpen, setIsOpen] = useState(false);
 
-  const handleOpen = () => {
-    setIsOpen(true);
+  const [tickerData, setTickerData] = useState({});
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const requests = TICKERS.map((ticker) =>
+        axios.get(
+          `https://min-api.cryptocompare.com/data/v2/histohour?fsym=${ticker}&tsym=USD&limit=2`
+        )
+      );
+      const responses = await Promise.all(requests);
+      const data = {};
+      responses.forEach((response, index) => {
+        const ticker = TICKERS[index];
+        const close = response.data.Data.Data[1].close;
+        const prevClose = response.data.Data.Data[0].close;
+        data[ticker] = { close, prevClose };
+      });
+      setTickerData(data);
+    };
+    fetchData();
+    const interval = setInterval(fetchData, 10000); // update every 10 seconds
+    return () => clearInterval(interval);
+  }, []);
+
+  const getArrow = (close, prevClose) => {
+    if (close > prevClose) {
+      return <span style={{ color: "green" }}>⬈</span>;
+    } else if (close < prevClose) {
+      return <span style={{ color: "red" }}>⬊</span>;
+    } else {
+      return null;
+    }
   };
 
-  const handleClose = () => {
-    setIsOpen(false);
-  };
+  const tickerText = TICKERS.map((ticker) => {
+    const { close, prevClose } = tickerData[ticker] || {};
+    const color = close > prevClose ? "green" : "red";
+    const tickers =`${ticker}:`;
+    const text = ` ${close || "-"} |`;
+    return (
+      <span key={ticker} style={{ marginRight: "1rem", color }}>
+        {tickers} {getArrow(close, prevClose)} {text}
+      </span>
+    );
+  });
 
   return (
-    <section className="video section-spacing dark:bg-black">
-      <Container>
-        <div data-aos="fade-up" data-aos-once="true" className="text-center">
-          <SectionTitleContainer>
-            <h2 className="section-title mb-2">We are ready to help</h2>
-
-            <p className="mb-8">
-              There are many variations of passages of Lorem Ipsum available but
-              the majority have suffered alteration in some form.
-            </p>
-          </SectionTitleContainer>
-
-          <div className="relative">
-            <picture>
-              <img
-                className="w-full object-cover"
-                src={`${VideoThumbnailImage}`}
-                alt="video-thumbnail"
-              />
-            </picture>
-
-            <button
-              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white p-4"
-              onClick={handleOpen}
-            >
-              <FaPlay />
-            </button>
-
-            <Modal isOpen={isOpen} onClose={handleClose}>
-              <div className="h-[80vh] w-[80vh]">
-                <iframe
-                  width="100%"
-                  height="100%"
-                  src="https://www.youtube-nocookie.com/embed/r44RKWyfcFw?autoplay=1&mute=1&controls=1&disablekb=1&playsinline=1&cc_load_policy=0&cc_lang_pref=auto&widget_referrer=https%3A%2F%2Fstartup-tailwind.preview.uideck.com%2F&noCookie=true&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&origin=https%3A%2F%2Fstartup-tailwind.preview.uideck.com&widgetid=4"
-                  frameborder="0"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </Modal>
-          </div>
-        </div>
-      </Container>
-    </section>
+  <section className="video section-spacing dark:bg-black">
+  <Container>
+  <marquee>{tickerText}</marquee>;
+  </Container>
+  </section>
   );
 };
 

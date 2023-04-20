@@ -10,10 +10,12 @@ import Pricing from "../components/Pricing";
 import Support from "../components/Support";
 import Teams from "../components/Team";
 
+
 const Home = () => {
   return (
     <>
       <Hero />
+      <HelpVideo />
       <Companies />
       <MainFeatures />
       <About />
