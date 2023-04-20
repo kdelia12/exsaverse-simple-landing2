@@ -55,7 +55,7 @@ const HelpVideo = () => {
   return (
   <section className="video section-spacing dark:bg-black">
   <Container>
-  <marquee>{tickerText}</marquee>;
+  <marquee>{tickerText}</marquee>
   </Container>
   </section>
   );
