@@ -5,6 +5,13 @@ import { AiFillStar } from "react-icons/ai";
 import Container from "../../common/Container";
 import SectionTitleContainer from "../../common/SectionTitleContainer";
 import Row, { RowItem } from "../../common/Row";
+import ijal from "../../assets/pfp/ijal.png";
+import karot from "../../assets/pfp/karot.png";
+import nux from "../../assets/pfp/nux.png";
+import lae from "../../assets/pfp/lae.png";
+import matamu from "../../assets/pfp/matamu.png";
+import pinya from "../../assets/pfp/ka pinya.png";
+import dika from "../../assets/pfp/dika.gif";
 
 import AuthorImage1 from "../../assets/images/anu.gif";
 import AuthorImage2 from "../../assets/images/anu.gif";
@@ -16,65 +23,65 @@ const starFillColor = "text-yellow-400";
 const reviewsInfo = [
   {
     desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    authorImg: `${AuthorImage1}`,
-    authorName: "Dimas Kopling",
-    authorPosition: "Founder @TailGrids",
+    authorImg: `${ijal}`,
+    authorName: "Manxxx",
+    authorPosition: "Founder @exsaverse",
+    discordLink: "https://discord.gg/example",
+    twitterLink: "https://twitter.com/example",
+  },
+  {
+    desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    authorImg: `${dika}`,
+    authorName: "Dika Exsa",
+    authorPosition: "Hypeman & Secretary @exsaverse",
+    discordLink: "https://discord.gg/example",
+    twitterLink: "https://twitter.com/example",
+  },
+  {
+    desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    authorImg: `${karot}`,
+    authorName: "Karot",
+    authorPosition: "Middleman @exsaverse",
+    discordLink: "https://discord.gg/example",
+    twitterLink: "https://twitter.com/example",
+  },
+  {
+    desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    authorImg: `${nux}`,
+    authorName: "nux",
+    authorPosition: "Bot Developer @exsaverse",
+    discordLink: "https://discord.gg/example",
+    twitterLink: "https://twitter.com/example",
+  },
+  {
+    desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    authorImg: `${lae}`,
+    authorName: "Lae",
+    authorPosition: "Middleman @exsaverse",
     discordLink: "https://discord.gg/example",
     twitterLink: "https://twitter.com/example",
   },
   {
     desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     authorImg: `${AuthorImage2}`,
-    authorName: "Rizki Premium",
-    authorPosition: "Founder @UIdeck",
+    authorName: "Evetixx",
+    authorPosition: "Web Developer @exsaverse",
     discordLink: "https://discord.gg/example",
     twitterLink: "https://twitter.com/example",
   },
   {
     desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    authorImg: `${AuthorImage3}`,
-    authorName: "Asep Pertamax",
-    authorPosition: "Founder @Lineicons",
+    authorImg: `${matamu}`,
+    authorName: "Mata",
+    authorPosition: "Artist @exsaverse",
     discordLink: "https://discord.gg/example",
     twitterLink: "https://twitter.com/example",
   },
   {
     desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    authorImg: `${AuthorImage3}`,
-    authorName: "Asep Pertamax",
-    authorPosition: "Founder @Lineicons",
-    discordLink: "https://discord.gg/example",
-    twitterLink: "https://twitter.com/example",
-  },
-  {
-    desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    authorImg: `${AuthorImage1}`,
-    authorName: "Dimas Kopling",
-    authorPosition: "Founder @TailGrids",
-    discordLink: "https://discord.gg/example",
-    twitterLink: "https://twitter.com/example",
-  },
-  {
-    desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    authorImg: `${AuthorImage2}`,
-    authorName: "Rizki Premium",
-    authorPosition: "Founder @UIdeck",
-    discordLink: "https://discord.gg/example",
-    twitterLink: "https://twitter.com/example",
-  },
-  {
-    desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    authorImg: `${AuthorImage3}`,
-    authorName: "Asep Pertamax",
-    authorPosition: "Founder @Lineicons",
-    discordLink: "https://discord.gg/example",
-    twitterLink: "https://twitter.com/example",
-  },
-  {
-    desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    authorImg: `${AuthorImage3}`,
-    authorName: "Asep Pertamax",
-    authorPosition: "Founder @Lineicons",
+    authorImg: `${pinya}`,
+    authorName: "Pinyacoala",
+    authorPosition: "Team @exsaverse",
     discordLink: "https://discord.gg/example",
     twitterLink: "https://twitter.com/example",
   },
