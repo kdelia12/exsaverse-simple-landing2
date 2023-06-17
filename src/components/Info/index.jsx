@@ -13,7 +13,7 @@ const Info = () => {
   return (
     <section id="info" className="section-spacing dark:bg-black">
       <Container>
-        <Row>
+        {/* <Row>
           <RowItem
             data-aos="fade-up"
             data-aos-duration="700"
@@ -23,9 +23,9 @@ const Info = () => {
             <picture>
               <img src={`${InfoImage}`} alt="info-image" />
             </picture>
-          </RowItem>
+          </RowItem> */}
 
-          <RowItem
+          {/* <RowItem
             data-aos="fade-up"
             data-aos-duration="700"
             data-aos-once="true"
@@ -48,8 +48,8 @@ const Info = () => {
               Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
               consectetur adipiscing elit setim.
             </InfoText>
-          </RowItem>
-        </Row>
+          </RowItem> */}
+        {/* </Row> */}
       </Container>
     </section>
   );
