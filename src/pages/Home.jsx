@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import MainFeatures from "../components/MainFeatures";
+import Lastsales from "../components/lastsales";
 import HelpVideo from "../components/HelpVideo";
 import Companies from "../components/Companies";
 import About from "../components/About";
@@ -21,6 +22,7 @@ const Home = () => {
       <About />
       <Info />
       <Reviews />
+      <Lastsales />
       <Pricing />
       <Teams />
       <Support />

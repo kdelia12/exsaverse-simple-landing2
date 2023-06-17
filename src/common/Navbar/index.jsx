@@ -23,14 +23,14 @@ const dropdownLinks = [
 const Navbar = () => {
   const [toggleNav, setToggleNav] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isLightMode, setIsLightMode] = useState(false);
 
   const handleToggleNav = () => {
     return setToggleNav((value) => !value);
   };
 
   const handleDarkMode = () => {
-    setIsDarkMode((prevMode) => !prevMode);
+    setIsLightMode((prevMode) => !prevMode);
   };
 
   const { hash } = useLocation();
@@ -69,10 +69,10 @@ const Navbar = () => {
   useEffect(() => {
     const root = document.querySelector("#root");
 
-    isDarkMode
-      ? root.classList.remove("light") || root.classList.add("dark")
-      : root.classList.remove("dark") || root.classList.add("light");
-  }, [isDarkMode]);
+    isLightMode
+      ? root.classList.remove("dark") || root.classList.add("light")
+      : root.classList.remove("light") || root.classList.add("dark");
+  }, [isLightMode]);
 
   return (
     <nav
@@ -167,7 +167,7 @@ const Navbar = () => {
             rounded="lg"
             size="sm"
           >
-            {isDarkMode ? <CiLight /> : <CiDark />}
+            {isLightMode ? <CiDark /> : <CiLight /> }
           </Button>
 
           <Button
