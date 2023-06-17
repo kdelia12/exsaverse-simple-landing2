@@ -21,13 +21,13 @@ const Hero = () => {
             data-aos-duration="700"
             data-aos-once="true"
           >
-
-
-
+            <h2 className="mb-4 text-[1.953rem] font-bold dark:text-amber-500">
+            ㅤㅤㅤㅤㅤㅤㅤ
+            </h2>
             <ButtonContainer>
-              <LinkButton variant="secondary" rounded="lg">
-                Join Discord
-              </LinkButton>
+            <LinkButton variant="secondary" rounded="lg" to="https://discord.gg/exsaverse">
+              Join Discord
+            </LinkButton>
             </ButtonContainer>
           </SectionTitleContainer>
         </Container>
