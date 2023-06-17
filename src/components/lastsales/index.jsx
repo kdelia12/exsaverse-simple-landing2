@@ -32,7 +32,7 @@ const Teams = () => {
         desc: `${item.quantity} x ${item.item}`,
         authorName: item.price,
         authorPosition: item.specific,
-        authorImg: AuthorImage1, // Add the author image here
+         // Add the author image here
       }));
       setTeamsInfo(teamsInfo);
     }
