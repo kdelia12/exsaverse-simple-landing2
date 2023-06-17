@@ -12,11 +12,8 @@ const Hero = () => {
     <div>
       <section id="hero" className="hero section-spacing dark:bg-black">
         <Container className="text-center">
-        <div className={`mb-[20px] text-[2.488rem]
-                font-bold 
-                dark:text-amber-500 
-                sm:mb-5 md:text-[3rem]`}>
-      <img src={banner} alt="banner" />
+        <div className={`mb-20 text-2xl font-bold dark:text-amber-500 sm:mb-5 md:text-3xl`}>
+      <img src={banner} alt="banner" class="transform hover:scale-110 transition duration-500 ease-in-out" />
     </div>
     
           <SectionTitleContainer
@@ -24,18 +21,8 @@ const Hero = () => {
             data-aos-duration="700"
             data-aos-once="true"
           >
-            <h1
-              className={`mb-[20px] text-[2.488rem]
-                font-bold 
-                dark:text-amber-500 
-                sm:mb-5 md:text-[3rem]`}
-            >
-              Exsaverse <br /> Whitelist Marketplace
-            </h1>
 
-            <p className="mb-12 text-[1.2rem] font-medium dark:text-slate-400">
-              Lorem Bla bla bla Lorem Bla bla blaLorem Bla bla blaLorem Bla bla blaLorem Bla bla blaLorem Bla bla blaLorem Bla bla blaLorem Bla bla blaLorem Bla bla bla
-            </p>
+
 
             <ButtonContainer>
               <LinkButton variant="secondary" rounded="lg">
