@@ -1,4 +1,5 @@
 import tw from "twin.macro";
+import React from 'react';
 import { AiFillStar } from "react-icons/ai";
 import Container from "../../common/Container";
 import SectionTitleContainer from "../../common/SectionTitleContainer";
