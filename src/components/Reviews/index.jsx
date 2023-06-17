@@ -74,8 +74,8 @@ const TeamsInfo = [
         <AiFillStar className={`${starFillColor}`} />
       </>
     ),
-    desc: "Zeeeb Mhanxxx",
-    authorName: "Asep Bensin",
+    desc: "For exsaverse - The discord is organized and i <3 main prob is lack of sellers since the competitor still having like 60-70% of market share.",
+    authorName: "@JonnyyFake",
     authorPosition: "Founder @UIdeck",
   },
   {
@@ -87,8 +87,8 @@ const TeamsInfo = [
         <AiFillStar className={`${starFillColor}`} />
       </>
     ),
-    desc: "Zeeeb Mhanxxx",
-    authorName: "Dimas Solar",
+    desc: "I rented a node for mint on @exsaverse(the best WL Marketplace🔥)",
+    authorName: "@kxngan1",
     authorPosition: "Founder @Lineicons",
   },{
     ratings: (
@@ -100,9 +100,8 @@ const TeamsInfo = [
         <AiFillStar className={`${starFillColor}`} />
       </>
     ),
-    desc: "Zeeeb Mhanxxx",
-    authorName: "Rehan Pertamax",
-    authorPosition: "Founder @TailGrids",
+    desc: "Shout out to @exsaverse for the easy WL purchasing they did - my first time buying WL in a while",
+    authorName: "@CryptoTraderRai",
   },
   {
     ratings: (

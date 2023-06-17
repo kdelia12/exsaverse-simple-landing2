@@ -11,7 +11,9 @@ import nux from "../../assets/pfp/nux.png";
 import lae from "../../assets/pfp/lae.png";
 import matamu from "../../assets/pfp/matamu.png";
 import pinya from "../../assets/pfp/ka pinya.png";
-import dika from "../../assets/pfp/dika.gif";
+import dika from "../../assets/pfp/dika.png";
+import paris from "../../assets/pfp/paris.png";
+import akla from "../../assets/pfp/akla.png";
 
 import AuthorImage1 from "../../assets/images/anu.gif";
 import AuthorImage2 from "../../assets/images/anu.gif";
@@ -33,7 +35,7 @@ const reviewsInfo = [
     desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     authorImg: `${dika}`,
     authorName: "Dika Exsa",
-    authorPosition: "Hypeman & Secretary @exsaverse",
+    authorPosition: "Hypeman & Treasurer @exsaverse",
     discordLink: "https://discord.gg/example",
     twitterLink: "https://twitter.com/example",
   },
@@ -41,23 +43,15 @@ const reviewsInfo = [
     desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     authorImg: `${karot}`,
     authorName: "Karot",
-    authorPosition: "Middleman @exsaverse",
+    authorPosition: "Atlet @exsaverse",
     discordLink: "https://discord.gg/example",
     twitterLink: "https://twitter.com/example",
   },
   {
     desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     authorImg: `${nux}`,
-    authorName: "nux",
+    authorName: "buumblebee",
     authorPosition: "Bot Developer @exsaverse",
-    discordLink: "https://discord.gg/example",
-    twitterLink: "https://twitter.com/example",
-  },
-  {
-    desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    authorImg: `${lae}`,
-    authorName: "Lae",
-    authorPosition: "Middleman @exsaverse",
     discordLink: "https://discord.gg/example",
     twitterLink: "https://twitter.com/example",
   },
@@ -65,7 +59,7 @@ const reviewsInfo = [
     desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     authorImg: `${AuthorImage2}`,
     authorName: "Evetixx",
-    authorPosition: "Web Developer @exsaverse",
+    authorPosition: "Developer @exsaverse",
     discordLink: "https://discord.gg/example",
     twitterLink: "https://twitter.com/example",
   },
@@ -82,6 +76,30 @@ const reviewsInfo = [
     authorImg: `${pinya}`,
     authorName: "Pinyacoala",
     authorPosition: "Team @exsaverse",
+    discordLink: "https://discord.gg/example",
+    twitterLink: "https://twitter.com/example",
+  },
+  {
+    desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    authorImg: `${akla}`,
+    authorName: "Akla",
+    authorPosition: "Team @exsaverse",
+    discordLink: "https://discord.gg/example",
+    twitterLink: "https://twitter.com/example",
+  },
+  {
+    desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    authorImg: `${paris}`,
+    authorName: "0xPlode",
+    authorPosition: "Team @exsaverse",
+    discordLink: "https://discord.gg/example",
+    twitterLink: "https://twitter.com/example",
+  },
+  {
+    desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    authorImg: `${lae}`,
+    authorName: "Lae",
+    authorPosition: "Middleman @exsaverse",
     discordLink: "https://discord.gg/example",
     twitterLink: "https://twitter.com/example",
   },
@@ -107,7 +125,7 @@ const Reviews = () => {
 
     <Row>
       {reviewsInfo.map((review, index) => (
-        <RowItem key={index} className="mb-8 w-full sm:w-1/2 lg:w-1/4 px-4">
+        <RowItem key={index} className="mb-8 w-full sm:w-1/2 lg:w-1/5 px-5">
           <article
             className={`
               h-full rounded-md bg-white py-8 px-4
@@ -123,19 +141,12 @@ const Reviews = () => {
                 {review.authorName}
                 <AuthorPosition>{review.authorPosition}</AuthorPosition>
               </AuthorName>
-              <div className="ml-4 flex items-center">
-                <a
-                  href={review.discordLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <DiscordIcon />
-                </a>
+              <div className="ml-1 flex items-center">
                 <a
                   href={review.twitterLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="ml-4"
+                  className="ml-100"
                 >
                   <TwitterIcon />
                 </a>
