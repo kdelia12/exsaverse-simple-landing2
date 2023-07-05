@@ -74,7 +74,7 @@ const reviewsInfo = [
   {
     desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     authorImg: `${pinya}`,
-    authorName: "Pinyacoala",
+    authorName: "MahiMahiMoana",
     authorPosition: "Team @exsaverse",
     discordLink: "https://discord.gg/example",
     twitterLink: "https://twitter.com/example",
