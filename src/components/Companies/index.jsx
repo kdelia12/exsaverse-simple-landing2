@@ -23,53 +23,53 @@ const Companies = () => {
 
         {/* wrapper */}
         <div
-          data-aos="fade-up"
-          data-aos-once="true"
-          className="flex flex-wrap items-center justify-center gap-8 rounded-lg p-8"
-        >
-          <Link
-            to="https://twitter.com/eocommunity_"
-            target="_blank"
-            className={`w-22 h-32 flex items-center justify-center ${imageLinkHoverClass}`}
-          >
-            <img src={`${CompanyImage1}`} alt="uideck" />
-          </Link>
-          <Link
-            to="https://twitter.com/ineardao"
-            target="_blank"
-            className={`w-22 h-32 flex items-center justify-center ${imageLinkHoverClass}`}
-          >
-            <img src={`${CompanyImage2}`} alt="tailgrids" />
-          </Link>
-          <Link
-            to="https://twitter.com/LinkedCo"
-            target="_blank"
-            className={`w-22 h-32 flex items-center justify-center ${imageLinkHoverClass}`}
-          >
-            <img src={`${CompanyImage3}`} alt="lineicons" />
-          </Link>
-          <Link
-            to="https://twitter.com/segs_dao"
-            target="_blank"
-            className={`w-22 h-32 flex items-center justify-center ${imageLinkHoverClass}`}
-          >
-            <img src={`${CompanyImage4}`} alt="ayroui" />
-          </Link>
-          <Link
-            to="hhttps://twitter.com/StressCapitals"
-            target="_blank"
-            className={`w-22 h-32 flex items-center justify-center ${imageLinkHoverClass}`}
-          >
-            <img src={`${CompanyImage5}`} alt="plainadmin" />
-          </Link>
-          <Link
-            to="https://twitter.com/unityacademy__?s=21"
-            target="_blank"
-            className={`w-20 h-32 flex items-center justify-center ${imageLinkHoverClass}`}
-          >
-            <img src={`${CompanyImage6}`} alt="plainadmin" />
-          </Link>
-        </div>
+  data-aos="fade-up"
+  data-aos-once="true"
+  className="flex flex-wrap items-center justify-center gap-8 rounded-lg p-3 md:p-8 lg:p-7 xl:p-10"
+>
+  <Link
+    to="https://twitter.com/eocommunity_"
+    target="_blank"
+    className={`w-full md:w-1/6 h-32 flex items-center justify-center ${imageLinkHoverClass}`}
+  >
+    <img src={`${CompanyImage1}`} alt="uideck" className="max-w-full max-h-full" />
+  </Link>
+  <Link
+    to="https://twitter.com/ineardao"
+    target="_blank"
+    className={`w-full md:w-1/6 h-32 flex items-center justify-center ${imageLinkHoverClass}`}
+  >
+    <img src={`${CompanyImage2}`} alt="tailgrids" className="max-w-full max-h-full" />
+  </Link>
+  <Link
+    to="https://twitter.com/LinkedCo"
+    target="_blank"
+    className={`w-full md:w-1/6 h-32 flex items-center justify-center ${imageLinkHoverClass}`}
+  >
+    <img src={`${CompanyImage3}`} alt="lineicons" className="max-w-full max-h-full" />
+  </Link>
+  <Link
+    to="https://twitter.com/segs_dao"
+    target="_blank"
+    className={`w-full md:w-1/6 h-32 flex items-center justify-center ${imageLinkHoverClass}`}
+  >
+    <img src={`${CompanyImage4}`} alt="ayroui" className="max-w-full max-h-full" />
+  </Link>
+  <Link
+    to="https://twitter.com/StressCapitals"
+    target="_blank"
+    className={`w-full md:w-1/6 h-32 flex items-center justify-center ${imageLinkHoverClass}`}
+  >
+    <img src={`${CompanyImage5}`} alt="plainadmin" className="max-w-full max-h-full" />
+  </Link>
+  <Link
+    to="https://twitter.com/unityacademy__?s=21"
+    target="_blank"
+    className={`w-full md:w-1/6 h-32 flex items-center justify-center ${imageLinkHoverClass}`}
+  >
+    <img src={`${CompanyImage6}`} alt="plainadmin" className="max-w-full max-h-full" />
+  </Link>
+</div>
         {/* end wrapper */}
       </Container>
     </section>

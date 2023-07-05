@@ -3,7 +3,7 @@ import { TiTick } from "react-icons/ti";
 import Container from "../../common/Container";
 import Row, { RowItem } from "../../common/Row";
 
-import AboutImage from "../../assets/images/about-image.svg";
+import AboutImage from "../../assets/images/panjang.png";
 
 const aboutInfo = [
   { desc: "Fast" },
@@ -28,10 +28,6 @@ const About = () => {
             <h2 className="mb-4 text-[1.953rem] font-bold dark:text-amber-500">
               Building for trust, and the community.
             </h2>
-
-            <p className="mb-10 font-medium">
-              Lorem Ipsum balk bla bla
-            </p>
 
             <ul className="space-y-2 sm:columns-2">
               {aboutInfo.map((info, index) => (

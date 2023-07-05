@@ -75,47 +75,10 @@ const Footer = () => {
             </NavLink>
 
             <p className="mb-9 font-medium">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              lobortis.
+              Did anyone says merch? HAHAHA it will come very SOOONNNN
             </p>
 
             <ul className="flex space-x-4">
-              <li>
-                <Link
-                  className={`${footerLinksHoverClass}`}
-                  to="/"
-                  target="_blank"
-                >
-                  <FaFacebookF />
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className={`${footerLinksHoverClass}`}
-                  to="/"
-                  target="_blank"
-                >
-                  <FaTwitter />
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className={`${footerLinksHoverClass}`}
-                  to="/"
-                  target="_blank"
-                >
-                  <FaYoutube />
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className={`${footerLinksHoverClass}`}
-                  to="/"
-                  target="_blank"
-                >
-                  <FaLinkedin />
-                </Link>
-              </li>
             </ul>
           </RowItem>
 
