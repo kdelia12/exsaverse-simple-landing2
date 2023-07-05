@@ -103,33 +103,6 @@ const TeamsInfo = [
     desc: "Shout out to @exsaverse for the easy WL purchasing they did - my first time buying WL in a while",
     authorName: "@CryptoTraderRai",
   },
-  {
-    ratings: (
-      <>
-        <AiFillStar className={`${starFillColor}`} />
-        <AiFillStar className={`${starFillColor}`} />
-        <AiFillStar className={`${starFillColor}`} />
-        <AiFillStar className={`${starFillColor}`} />
-        <AiFillStar className={`${starFillColor}`} />
-      </>
-    ),
-    desc: "Zeeeb Mhanxxx",
-    authorName: "Asep Bensin",
-    authorPosition: "Founder @UIdeck",
-  },
-  {
-    ratings: (
-      <>
-        <AiFillStar className={`${starFillColor}`} />
-        <AiFillStar className={`${starFillColor}`} />
-        <AiFillStar className={`${starFillColor}`} />
-        <AiFillStar className={`${starFillColor}`} />
-      </>
-    ),
-    desc: "Zeeeb Mhanxxx",
-    authorName: "Dimas Solar",
-    authorPosition: "Founder @Lineicons",
-  },
 ];
 
 const AuthorName = tw.h5`
@@ -152,7 +125,7 @@ const Teams = () => {
     <SectionTitleContainer className="mb-14 text-center">
       <h2 className="section-title mb-2">What Our Users Says</h2>
       <p>
-        Lorem ipsum bla bla bla
+
       </p>
     </SectionTitleContainer>
 
