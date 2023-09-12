@@ -17,7 +17,7 @@ const Teams = () => {
 
   React.useEffect(() => {
     async function fetchData() {
-      const responseLastSales = await fetch('https://urchin-app-l769m.ondigitalocean.app/lastsales');
+      const responseLastSales = await fetch('https://exsa-market-i6jynw7hiq-uc.a.run.app/lastsales');
       const data = await responseLastSales.json();
       const teamsInfo = data.results.slice(0, 12).map((item) => ({
         ratings: (
