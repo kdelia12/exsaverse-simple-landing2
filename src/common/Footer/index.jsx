@@ -162,11 +162,6 @@ const Footer = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="termsofuse" className={`${footerLinksHoverClass}`}>
-                  Terms of Use
-                </NavLink>
-              </li>
-              <li>
                 <NavLink to="about" className={`${footerLinksHoverClass}`}>
                   About
                 </NavLink>

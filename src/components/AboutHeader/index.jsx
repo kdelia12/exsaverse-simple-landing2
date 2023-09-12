@@ -11,8 +11,7 @@ const AboutHeader = () => {
           <RowItem className="w-full md:w-8/12">
             <h2 className="section-title mb-2">About Page</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius
-              eros eget sapien consectetur ultrices. Ut quis dapibus libero.
+              Exsaverse is a biggest whitelist marketplace on Solana rightnow. But we dont wanna stop there, we are escalating to others network with our tech that keep anonimity of either buyer and seller!
             </p>
           </RowItem>
 
