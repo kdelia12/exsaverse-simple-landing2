@@ -14,7 +14,7 @@ import pinya from "../../assets/pfp/ka pinya.png";
 import dika from "../../assets/pfp/dika.png";
 import paris from "../../assets/pfp/paris.png";
 import akla from "../../assets/pfp/akla.png";
-
+import eve from "../../assets/pfp/eve.png";
 import AuthorImage1 from "../../assets/images/anu.gif";
 import AuthorImage2 from "../../assets/images/anu.gif";
 import AuthorImage3 from "../../assets/images/anu.gif";
@@ -50,14 +50,14 @@ const reviewsInfo = [
   {
     desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     authorImg: `${nux}`,
-    authorName: "buumblebee",
+    authorName: "RTX",
     authorPosition: "Bot Developer @exsaverse",
     discordLink: "https://discord.gg/example",
     twitterLink: "https://twitter.com/example",
   },
   {
     desc: "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    authorImg: `${AuthorImage2}`,
+    authorImg: `${eve}`,
     authorName: "Evetixx",
     authorPosition: "Developer @exsaverse",
     discordLink: "https://discord.gg/example",
